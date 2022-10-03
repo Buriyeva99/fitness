@@ -1,0 +1,27 @@
+.list {
+    background-color:#E3E3E3;
+}
+
+.catalog {
+    display: flex;
+    align-items:center;
+    
+}
+
+.catalog__list {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+.catalog__text {
+    list-style-type: none;
+    a {
+     text-decoration: none;
+     color:#36393F;
+    }
+}
+
+.search {
+    margin-left: 500px;
+}
+}

@@ -1,0 +1,40 @@
+.header {
+    background-color: #36393F;
+}
+
+.food {
+   
+   
+}
+
+.number {
+    gap: 10px;
+    display: flex;
+    
+   
+    .social {
+      
+    }
+   a {
+       color:white;
+       text-decoration: none;
+   }
+  
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+}
+
+.number {
+    display: flex;
+    align-items:center;
+
+  .basket {
+   margin-left: 25px;  
+  }
+}
