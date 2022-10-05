@@ -5,6 +5,7 @@
 .catalog {
     display: flex;
     align-items:center;
+    justify-content: space-between;
     
 }
 
@@ -24,4 +25,7 @@
 .search {
     margin-left: 500px;
 }
+}
+.catolog__inner-text {
+    display: flex;
 }

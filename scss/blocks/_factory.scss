@@ -1,33 +1,31 @@
 .fitness {
-    background-image: url(./../../img/flashimg.png);
-    width: 1430px;
-    height: 500px;
 }
 
 .factory {
   display: flex;
-  justify-content: space-between;
-
+  gap: 62px;
+  align-items: center;
+  background-image: url(./../../img/flashimg.png);
+  width: 1200px;
+  height: 500px;
 }
 
 .factory__inner {
-    padding-top: 100px;
-     gap: 20px;
-    h2 {
-       margin: 0 auto;
-      line-height: 52.8px;
-      font-size: 44px;
-    }
-    p {
-        line-height:150%;
-        font-size: 18px;
-        font-weight: 400px;
-        max-width: 439px;
-        
-    }
+  gap: 20px;
+  h2 {
+    margin: 0 auto;
+    line-height: 52.8px;
+    font-size: 44px;
+  }
+  p {
+    line-height: 150%;
+    font-size: 18px;
+    font-weight: 400px;
+    max-width: 439px;
+  }
 }
 
 .point {
-    text-align: center;
-    margin-top: -50px;
+  text-align: center;
+  margin-top: -50px;
 }
