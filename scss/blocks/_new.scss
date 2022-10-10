@@ -1,7 +1,7 @@
 .new {
  max-width:  1300px;
  padding: 40px 0;
- background-color:#36393F; 
+ background-color:$color-primary; 
  display: flex; 
  align-items:flex-end;
  justify-content: space-between;
@@ -23,6 +23,7 @@
 .new__inner {
     h3{
         color:#FEFEFE;
+        @include reset-list;
     }
 
 }
@@ -42,7 +43,7 @@
         a {
            text-decoration: none;
            color:#FEFEFE;
-           
+           @include reset-list;
            
         }
     }

@@ -1,5 +1,5 @@
 .list {
-    background-color:#E3E3E3;
+    background-color:$color-secondry;
 }
 
 .catalog {
@@ -28,4 +28,5 @@
 }
 .catolog__inner-text {
     display: flex;
+    justify-content: space-between;
 }
