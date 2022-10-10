@@ -1,5 +1,8 @@
 .header {
    background-color:$color-primary;
+   @media (max-width:$telephone) {
+       max-width: $telephone;
+   }
 }
 
 
@@ -9,9 +12,7 @@
     display: flex;
     
    
-    .social {
-      
-    }
+ 
    a {
        color:white;
        text-decoration: none;

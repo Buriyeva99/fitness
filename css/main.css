@@ -13,8 +13,21 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    max-width: 998px;
+    background-color: black;
+  }
+}
+
 .header {
   background-color: #36393F;
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 768px;
+  }
 }
 
 .number {

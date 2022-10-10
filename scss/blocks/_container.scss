@@ -11,4 +11,9 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+
+    @media (max-width: $desktop) {
+        max-width: $tab;
+        background-color: black;
+    }
 }
